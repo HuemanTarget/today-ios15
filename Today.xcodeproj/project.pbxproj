@@ -14,6 +14,7 @@
 		47467F0826DAC4DF0031D703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47467F0726DAC4DF0031D703 /* Assets.xcassets */; };
 		47467F0B26DAC4DF0031D703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47467F0926DAC4DF0031D703 /* LaunchScreen.storyboard */; };
 		47467F1626DAC6520031D703 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47467F1526DAC6520031D703 /* Reminder.swift */; };
+		47467F1826DB0E010031D703 /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47467F1726DB0E010031D703 /* ReminderListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		47467F0A26DAC4DF0031D703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47467F0C26DAC4DF0031D703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47467F1526DAC6520031D703 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		47467F1726DB0E010031D703 /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				47467F0226DAC4DD0031D703 /* ViewController.swift */,
+				47467F1726DB0E010031D703 /* ReminderListCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47467F0326DAC4DD0031D703 /* ViewController.swift in Sources */,
+				47467F1826DB0E010031D703 /* ReminderListCell.swift in Sources */,
 				47467EFF26DAC4DD0031D703 /* AppDelegate.swift in Sources */,
 				47467F0126DAC4DD0031D703 /* SceneDelegate.swift in Sources */,
 				47467F1626DAC6520031D703 /* Reminder.swift in Sources */,
