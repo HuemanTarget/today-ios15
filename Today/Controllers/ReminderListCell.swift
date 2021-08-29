@@ -13,4 +13,10 @@ class ReminderListCell: UITableViewCell {
   @IBOutlet var titleLabel: UILabel!
   @IBOutlet var dateLabel: UILabel!
   @IBOutlet var doneButton: UIButton!
+  
+  var doneButtonAction: DoneActionButton?
+  
+  @IBAction func doneButtonTriggered(_ sender: UIButton) {
+    doneButtonAction?()
+  }
 }
